@@ -1,0 +1,57 @@
+.logo-header{
+    width: 18rem;
+}
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+  }
+  .alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+  
+  .msg-sucesos{
+    display: none;
+    padding-bottom: 30px;
+  }
+  .msg-error{
+    display: none;
+    padding-bottom: 30px;
+  }
+label.error {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: flow-root;
+    color: #940000;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: left;
+    border-radius: 6px;
+    padding: 4px 6px 4px 4px;
+}
+input.error {
+    margin-bottom: 0;
+    border-color: red;
+}
+textarea.error {
+    margin-bottom: 0;
+    border-color: red;
+}
+
+.image{
+  width: auto;
+  height: 20rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("http://gabrielhenriq.com.br/tecnho-girls/header.jpg");
+}
+.elementos-home{
+  padding-bottom: 5rem !important;
+}
