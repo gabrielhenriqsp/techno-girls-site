@@ -54,7 +54,16 @@ export default function Home(props: QuemSomoProps) {
                         <div className="col-md-6">
                             <div className="left-content">
                                 <h4>{props.quemSomos[0]['text'][0]['title']}</h4>
-                                <div dangerouslySetInnerHTML={{ __html: props.quemSomos[0]['text'][0]['text'] }} />
+                                <p className="p-padrao">
+                                    Somos um projeto que
+                                    promove ações para:Aumentar a representatividade das mulheres na área da Computação;
+                                    Despertar o interesse de futuras estudantes da área Tech;
+                                    Mantendo a motivação daquelas já inseridas nos cursos de Tecnologia do Centro Universitário UNA e demais instituições do grupo Ânima.
+                                    <br /><br />
+                                    <b>Missão:</b> fortalecer a representatividade feminina na área de tecnologia;
+                                    <br /> <b>Visão:</b> ser referência nacional em diversidade de gênero na tecnologia;
+                                    <br /> <b>Valores:</b> diversidade, interação, equipe (juntos somos mais fortes), união, respeito
+                                </p>
                                 <ul className="social-icons">
                                     <li><a href="#"><i className="fa fa-facebook"></i></a></li>
                                     <li><a href="#"><i className="fa fa-twitter"></i></a></li>
